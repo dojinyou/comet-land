@@ -31,16 +31,12 @@ export default Header;
 const HeadingWrapper = styled.div`
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
-
-  & > label:last-of-type {
-    margin-top: 8px;
-  }
+  align-items: center;
 `;
 
 const H1 = styled(Text)`
-  font-size: 3rem;
-  line-height: 3rem;
+  font-size: 2rem;
+  line-height: 2rem;
   margin-bottom: 8px;
 `;
 
